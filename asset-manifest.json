@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/dayz/static/css/main.056d648c.css",
-    "main.js": "/dayz/static/js/main.4f2f1359.js",
+    "main.css": "/dayz/static/css/main.ab3818d4.css",
+    "main.js": "/dayz/static/js/main.e3ce6a8f.js",
     "static/media/mainImage.png": "/dayz/static/media/mainImage.9b3e2c034765f414d0ec.png",
-    "static/media/armoryImage.png": "/dayz/static/media/armoryImage.a929e9f6f5fec1b56fee.png",
-    "static/media/toxicImage.png": "/dayz/static/media/toxicImage.f96d32cc8b10ea448cc2.png",
-    "static/media/helicopterImage.png": "/dayz/static/media/helicopterImage.7e87e0034679027d72ad.png",
+    "static/media/keyCardChest.png": "/dayz/static/media/keyCardChest.34d31cd780a8ffcf26da.png",
+    "static/media/Koth.png": "/dayz/static/media/Koth.852bd95e3a203c9be2ed.png",
+    "static/media/armoryImage.png": "/dayz/static/media/armoryImage.9b36e57fd607c794240a.png",
+    "static/media/toxicImage.png": "/dayz/static/media/toxicImage.fe78013b942a4adbcad9.png",
+    "static/media/helicopterImage.png": "/dayz/static/media/helicopterImage.0d075d4993cc27bd1c4b.png",
+    "static/media/CardsBackground.png": "/dayz/static/media/CardsBackground.aa07bcad535ae91114ed.png",
     "static/media/discord.svg": "/dayz/static/media/discord.5d8d7041d024280d2d57f874416fe27e.svg",
     "index.html": "/dayz/index.html",
+    "static/media/copyToClipboard.svg": "/dayz/static/media/copyToClipboard.82b4dc2eca15b87e5e1c.svg",
     "static/media/hamburger.svg": "/dayz/static/media/hamburger.1320df01975afb9d39dd1adebbeaf324.svg",
     "static/media/x.svg": "/dayz/static/media/x.8a96217de6ece9399335a88273932ef7.svg",
-    "main.056d648c.css.map": "/dayz/static/css/main.056d648c.css.map",
-    "main.4f2f1359.js.map": "/dayz/static/js/main.4f2f1359.js.map"
+    "main.ab3818d4.css.map": "/dayz/static/css/main.ab3818d4.css.map",
+    "main.e3ce6a8f.js.map": "/dayz/static/js/main.e3ce6a8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.056d648c.css",
-    "static/js/main.4f2f1359.js"
+    "static/css/main.ab3818d4.css",
+    "static/js/main.e3ce6a8f.js"
   ]
 }
