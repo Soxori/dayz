@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dayz/static/css/main.06939c48.css",
-    "main.js": "/dayz/static/js/main.ba11f28c.js",
+    "main.css": "/dayz/static/css/main.1fad58ec.css",
+    "main.js": "/dayz/static/js/main.927a88ea.js",
     "static/media/mainImage.png": "/dayz/static/media/mainImage.1f3510503430a37d70e6.png",
     "static/media/keyCardChest.png": "/dayz/static/media/keyCardChest.34d31cd780a8ffcf26da.png",
     "static/media/Koth.png": "/dayz/static/media/Koth.852bd95e3a203c9be2ed.png",
@@ -9,16 +9,16 @@
     "static/media/toxicImage.png": "/dayz/static/media/toxicImage.fe78013b942a4adbcad9.png",
     "static/media/helicopterImage.png": "/dayz/static/media/helicopterImage.0d075d4993cc27bd1c4b.png",
     "static/media/CardsBackground.png": "/dayz/static/media/CardsBackground.aa07bcad535ae91114ed.png",
-    "static/media/discord.svg": "/dayz/static/media/discord.5d8d7041d024280d2d57f874416fe27e.svg",
     "index.html": "/dayz/index.html",
+    "static/media/discord.svg": "/dayz/static/media/discord.5d8d7041d024280d2d57f874416fe27e.svg",
     "static/media/copyToClipboard.svg": "/dayz/static/media/copyToClipboard.a4bbba178d30a7436150.svg",
     "static/media/hamburger.svg": "/dayz/static/media/hamburger.1320df01975afb9d39dd1adebbeaf324.svg",
     "static/media/x.svg": "/dayz/static/media/x.8a96217de6ece9399335a88273932ef7.svg",
-    "main.06939c48.css.map": "/dayz/static/css/main.06939c48.css.map",
-    "main.ba11f28c.js.map": "/dayz/static/js/main.ba11f28c.js.map"
+    "main.1fad58ec.css.map": "/dayz/static/css/main.1fad58ec.css.map",
+    "main.927a88ea.js.map": "/dayz/static/js/main.927a88ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.06939c48.css",
-    "static/js/main.ba11f28c.js"
+    "static/css/main.1fad58ec.css",
+    "static/js/main.927a88ea.js"
   ]
 }
