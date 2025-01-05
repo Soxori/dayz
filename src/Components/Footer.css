@@ -1,0 +1,128 @@
+/* Footer Styling */
+.footer {
+  background-color: #080808;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 15px;
+  position: relative; /* Ensure the popup is positioned within the footer */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+/* Links Wrapper */
+.linksWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Discord Button */
+.footer-discord {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  background-color: #7289da;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 7px 25px;
+  border-radius: 10px;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footer-discord:hover {
+  background-color: #677bc4;
+}
+
+/* IP Wrapper */
+.ip-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ip-wrapper p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.IPadress {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+/* Popup Styling */
+.popup {
+  position: fixed; /* Change to fixed to position relative to the viewport */
+  bottom: 20px; /* Adjust from bottom of the screen */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Ensure proper horizontal centering */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2000; /* Ensure it stays on top */
+  animation: fadeOut 5s forwards;
+  opacity: 1;
+}
+
+.copy-to-clipboard {
+  cursor: pointer;
+  background-image: url("../Images/copyToClipboard.svg");
+  background-size: cover;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: all 0.2s ease;
+  border: none;
+  background-color: #080808;
+}
+
+/* Fade-out animation for popup */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Media Query for Popup */
+@media (max-width: 768px) {
+  .popup {
+    width: 85%;
+  }
+  .linksWrapper {
+    flex-direction: column;
+  }
+  .ip-wrapper p {
+    font-size: 1.5rem;
+  }
+  .IPadress {
+    font-size: 1.5rem;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+}

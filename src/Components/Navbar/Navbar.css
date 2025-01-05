@@ -21,8 +21,20 @@
   display: flex;
   justify-content: center;
   background: linear-gradient(to right, #0d0d0d 35%, rgba(255, 0, 0, 0.2));
-  padding: 5px 9px;
+  padding: 8px 9px;
   border-radius: 35px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-center-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.navbar-center-hidden {
+  /* Shift it out of view and fade out */
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
 .navbar-right {
@@ -43,6 +55,10 @@
   font-size: 3.2rem;
   font-weight: 500;
   letter-spacing: 1.5px;
+  background: linear-gradient(to bottom right, white, black 120%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .brand-highlight {
@@ -148,7 +164,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  z-index: 999;
+  z-index: 5000;
 }
 
 .sidebar-header {
@@ -174,4 +190,98 @@
   padding: 10px 0;
   color: white;
   cursor: pointer;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal overlay: dark background, slightly transparent */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent dark */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50000; /* On top of other elements */
+  animation: fadeIn 0.3s ease-out;
+}
+
+@media (max-width: 900px) {
+  .modal-titel {
+    font-size: 1.6rem !important;
+  }
+  .modal-body p {
+    font-size: 1.2rem !important;
+  }
+  .modal-content {
+    margin: 0 1rem;
+  }
+}
+
+/* Modal content container */
+.modal-content {
+  background-color: #1c1c1c;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 750px;
+  position: relative;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.3s ease-out;
+}
+
+/* Modal header (where the X button is) */
+.modal-header {
+  display: flex;
+  justify-content: flex-end; /* Right align the close icon */
+}
+
+/* Modal body (where your info goes) */
+.modal-body {
+  text-align: center;
+}
+
+.modal-body .footer-discord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem auto;
+}
+
+.modal-titel {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
