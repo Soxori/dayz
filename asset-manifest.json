@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dayz/static/css/main.f2c391fc.css",
-    "main.js": "/dayz/static/js/main.18d6281e.js",
+    "main.js": "/dayz/static/js/main.38e92f82.js",
     "static/media/mainImage.png": "/dayz/static/media/mainImage.1f3510503430a37d70e6.png",
     "static/media/keyCardChest.png": "/dayz/static/media/keyCardChest.34d31cd780a8ffcf26da.png",
     "static/media/Koth.png": "/dayz/static/media/Koth.852bd95e3a203c9be2ed.png",
@@ -15,10 +15,10 @@
     "static/media/hamburger.svg": "/dayz/static/media/hamburger.1320df01975afb9d39dd1adebbeaf324.svg",
     "static/media/x.svg": "/dayz/static/media/x.8a96217de6ece9399335a88273932ef7.svg",
     "main.f2c391fc.css.map": "/dayz/static/css/main.f2c391fc.css.map",
-    "main.18d6281e.js.map": "/dayz/static/js/main.18d6281e.js.map"
+    "main.38e92f82.js.map": "/dayz/static/js/main.38e92f82.js.map"
   },
   "entrypoints": [
     "static/css/main.f2c391fc.css",
-    "static/js/main.18d6281e.js"
+    "static/js/main.38e92f82.js"
   ]
 }
