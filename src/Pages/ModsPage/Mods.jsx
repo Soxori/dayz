@@ -23,12 +23,19 @@ export default function Mods() {
         keywords="DayZ mods, Custom DayZ weapons, DayZ vehicle mods, DayZ base building, DayZ survival mods, Best DayZ modifications, DayZ PvP enhancements, DayZ server mods, DayZ gameplay upgrades, Modded DayZ server"
       />
       <div className="mods-wrapper">
-        <h1 class="mods-title">All available mods on the server</h1>
+        <h1 className="mods-title">All available mods on the server</h1>
         <div className="mods-grid">
           {serverData.mods.map((mod, index) => (
-            <div key={index} className="mod-item">
+            <a
+              key={index}
+              href={`https://steamcommunity.com/sharedfiles/filedetails/?id=${serverData.modIds[index]}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mod-item"
+              style={{ textDecoration: "none" }}
+            >
               {mod}
-            </div>
+            </a>
           ))}
         </div>
       </div>

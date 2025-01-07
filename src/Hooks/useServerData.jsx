@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { SERVER_URL } from "../Configs/Config"; // Import the URL
+import { SERVER_URL } from "../Configs/Config";
 
 function useServerData() {
   const [serverData, setServerData] = useState(null);
@@ -16,6 +16,7 @@ function useServerData() {
           ipAddress: attributes.ip,
           port: attributes.port,
           mods: attributes.details.modNames,
+          modIds: attributes.details.modIds, // Include modIds here
         });
       } catch (error) {
         console.error("Error fetching server data:", error);
